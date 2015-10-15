@@ -128,30 +128,4 @@
       </block>
     </statement>
   </block>
-  <block type="movement_right" id="114" x="795" y="439"></block>
-  <block type="movement_leftmotor" id="134" inline="true" x="730" y="721">
-    <value name="MOVLEFT">
-      <block type="math_number" id="183">
-        <field name="NUM">5000</field>
-      </block>
-    </value>
-    <next>
-      <block type="robot_delay" id="163" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="164">
-            <field name="NUM">5000</field>
-          </block>
-        </value>
-        <next>
-          <block type="robot_delay" id="159" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="72">
-                <field name="NUM">200</field>
-              </block>
-            </value>
-          </block>
-        </next>
-      </block>
-    </next>
-  </block>
 </xml>
